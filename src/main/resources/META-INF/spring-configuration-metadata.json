@@ -1,0 +1,104 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.rickiyang.redis.config.RedisSentinelClientProperties",
+      "name": "rickiyang.redis.sentinel",
+      "type": "com.rickiyang.redis.config.RedisSentinelClientProperties"
+    },
+    {
+      "sourceType": "com.rickiyang.redis.config.RedisSentinelClientProperties",
+      "defaultValue": false,
+      "name": "rickiyang.redis.sentinel.block-when-exhausted",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.rickiyang.redis.config.RedisSentinelClientProperties",
+      "name": "rickiyang.redis.sentinel.masterName",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.rickiyang.redis.config.RedisSentinelClientProperties",
+      "defaultValue": 0,
+      "name": "rickiyang.redis.sentinel.max-active",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.rickiyang.redis.config.RedisSentinelClientProperties",
+      "defaultValue": 0,
+      "name": "rickiyang.redis.sentinel.max-idle",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.rickiyang.redis.config.RedisSentinelClientProperties",
+      "defaultValue": 0,
+      "name": "rickiyang.redis.sentinel.max-total",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.rickiyang.redis.config.RedisSentinelClientProperties",
+      "defaultValue": 0,
+      "name": "rickiyang.redis.sentinel.max-wait",
+      "type": "java.time.Long"
+    },
+    {
+      "sourceType": "com.rickiyang.redis.config.RedisSentinelClientProperties",
+      "defaultValue": 0,
+      "name": "rickiyang.redis.sentinel.min-evictable-idle-time-millis",
+      "type": "java.lang.Long"
+    },
+    {
+      "sourceType": "com.rickiyang.redis.config.RedisSentinelClientProperties",
+      "defaultValue": 0,
+      "name": "rickiyang.redis.sentinel.min-idle",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.rickiyang.redis.config.RedisSentinelClientProperties",
+      "defaultValue": 0,
+      "name": "rickiyang.redis.sentinel.num-tests-per-eviction-run",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.rickiyang.redis.config.RedisSentinelClientProperties",
+      "name": "rickiyang.redis.sentinel.sentinels",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.rickiyang.redis.config.RedisSentinelClientProperties",
+      "defaultValue": 0,
+      "name": "rickiyang.redis.sentinel.soft-min-evictable-idle-time-millis",
+      "type": "java.lang.Long"
+    },
+    {
+      "sourceType": "com.rickiyang.redis.config.RedisSentinelClientProperties",
+      "defaultValue": false,
+      "name": "rickiyang.redis.sentinel.test-on-borrow",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.rickiyang.redis.config.RedisSentinelClientProperties",
+      "defaultValue": false,
+      "name": "rickiyang.redis.sentinel.test-on-return",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.rickiyang.redis.config.RedisSentinelClientProperties",
+      "defaultValue": false,
+      "name": "rickiyang.redis.sentinel.test-while-idle",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.rickiyang.redis.config.RedisSentinelClientProperties",
+      "defaultValue": 0,
+      "name": "rickiyang.redis.sentinel.time-between-eviction-runs-millis",
+      "type": "java.lang.Long"
+    },
+    {
+      "sourceType": "com.rickiyang.redis.config.RedisSentinelClientProperties",
+      "defaultValue": 0,
+      "name": "rickiyang.redis.sentinel.when-exhausted-action",
+      "type": "java.lang.Byte"
+    }
+  ]
+}
